@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "async-talk"
+version = "1.0.0"
+description = "async-talk"
+authors = ["Ryan Varley <ryan@ryanvarley.uk>"]
+
+[tool.poetry.dependencies]
+python="^3.12.2"
+jupyterlab = "^4.3.1"
+requests = "^2.32.3"
+rich = "^13.9.4"
+fastapi = {version = "^0.115.6", extras = ["standard"]}
+faker = "^33.1.0"
+aiohttp = "^3.11.9"
+
+[tool.poetry.group.dev.dependencies]
+black = { extras = ["jupyter"], version = "*" }
+isort = "*"
+flake8 = "^5.0.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
