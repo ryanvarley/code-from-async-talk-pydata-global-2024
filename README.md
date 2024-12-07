@@ -2,7 +2,7 @@
 
 **PyData Global 2024 | 3rd December 2024**
 
-This repository contains the code from my talk. You can find more information about the talk [here](https://blog.ryanvarley.com/p/pydata-global-lets-get-you-started).
+This repository contains the code from my talk. You can find more information about the talk [here](https://blog.ryanvarley.com/p/pydata-get-started-with-python-async-in-25-minutes-talk).
 
 The video of the talk is not yet available (unless you attended the conference). I will update this README when it is.
 
